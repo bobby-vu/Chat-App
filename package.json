@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Bobby Vu",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server ./webpack/webpack.config.js"
+  },
   "dependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -11,6 +14,7 @@
     "babel-preset-react": "^6.24.1",
     "path": "^0.12.7",
     "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
   }

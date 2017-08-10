@@ -1,7 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import App from "component";
 
-class ChatApp extends React.Component {
-  return <div>Hello</div>;
-}
-
-export default ChatApp;
+ReactDOM.render(<App />, document.getElementById("root"));
