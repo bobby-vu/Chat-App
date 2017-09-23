@@ -5,13 +5,16 @@
   "author": "Bobby Vu",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server ./webpack/webpack.config.js"
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --port 1997",
+    "build:prod": "webpack -p"
   },
   "dependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "express": "^4.15.4",
     "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
